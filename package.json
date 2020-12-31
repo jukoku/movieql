@@ -1,0 +1,28 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQl",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jukoku/movieql.git"
+  },
+  "author": "Jinho Chun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jukoku/movieql/issues"
+  },
+  "homepage": "https://github.com/jukoku/movieql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
