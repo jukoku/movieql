@@ -14,8 +14,11 @@
   },
   "homepage": "https://github.com/jukoku/movieql#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "graphql-yoga": "^1.18.3",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.6"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
